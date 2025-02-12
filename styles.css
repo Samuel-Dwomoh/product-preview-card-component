@@ -1,0 +1,108 @@
+@import url("https://fonts.google.com/specimen/Montserrat");
+@import url("https://fonts.google.com/specimen/Fraunces");
+:root {
+  /*Primary colors*/
+  --darkcyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  /*Neutral*/
+  --verydarkblue: hsl(212, 21%, 13%);
+  --darkgrayishblue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+p {
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  /*font-family: "Montserrat", sans-serif;*/
+  /*font-family: "Fraunces", serif;*/
+}
+
+.container {
+  display: flex;
+  width: 530px;
+  height: 350px;
+  gap: 7px;
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+img {
+  width: auto;
+  height: 350px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  
+}
+.text-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.perfume {
+  margin-top: 10px;
+  letter-spacing: 3px;
+  color: var(--darkgrayishblue);
+}
+button {
+  border-radius: 8px;
+  width: 75%;
+  height: 45px;
+  padding: 50 50 50 50;
+  background-color: var(--darkcyan);
+  color: white;
+  border: none;
+  margin-top: 15px;
+}
+h3 {
+  font-size: 1.7rem;
+  font-weight: bolder;
+  margin-top: 5px;
+  letter-spacing: -1px;
+}
+p {
+  margin-top: 8px;
+  color: var(--darkgrayishblue);
+  font-family: "Montserrat", sans-serif;
+}
+.money {
+  color: var(--darkcyan);
+}
+.justify {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 37px;
+}
+small {
+  text-decoration: line-through;
+  color: var(--darkgrayishblue);
+  font-size: 0.9rem;
+  align-items: center;
+  margin-top: 4px;
+}
+
+button:hover {
+  background-color: hsl(158, 36%, 47%);
+  scale: 1.007;
+  cursor: pointer;
+}
