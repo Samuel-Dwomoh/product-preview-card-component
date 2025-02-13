@@ -26,7 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  /*font-family: "Montserrat", sans-serif;*/
+  /*font-family: "Montserrat", sans-serif; */
   /*font-family: "Fraunces", serif;*/
 }
 
@@ -40,6 +40,7 @@ body {
   border-bottom-left-radius: 8px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+  box-shadow: 3px 3px 50px var(--darkgrayishblue);
 }
 
 img {
@@ -57,6 +58,7 @@ img {
   margin-top: 15px;
   margin-left: 10px;
   margin-right: 10px;
+  
 }
 .perfume {
   margin-top: 10px;
@@ -71,7 +73,7 @@ button {
   background-color: var(--darkcyan);
   color: white;
   border: none;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 h3 {
   font-size: 1.7rem;
