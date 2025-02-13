@@ -10,10 +10,6 @@
   --white: hsl(0, 0%, 100%);
 }
 
-p {
-  font-size: 14px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +24,10 @@ body {
   margin-top: 100px;
   /*font-family: "Montserrat", sans-serif; */
   /*font-family: "Fraunces", serif;*/
+}
+
+p {
+  font-size: 14px;
 }
 
 .container {
@@ -50,6 +50,7 @@ img {
   border-bottom-left-radius: 8px;
   
 }
+
 .text-wrapper {
   width: 100%;
   display: flex;
@@ -60,11 +61,13 @@ img {
   margin-right: 10px;
   
 }
+
 .perfume {
   margin-top: 10px;
   letter-spacing: 3px;
   color: var(--darkgrayishblue);
 }
+
 button {
   border-radius: 8px;
   width: 75%;
@@ -75,26 +78,31 @@ button {
   border: none;
   margin-top: 10px;
 }
+
 h3 {
   font-size: 1.7rem;
   font-weight: bolder;
   margin-top: 5px;
   letter-spacing: -1px;
 }
+
 p {
   margin-top: 8px;
   color: var(--darkgrayishblue);
   font-family: "Montserrat", sans-serif;
 }
+
 .money {
   color: var(--darkcyan);
 }
+
 .justify {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 37px;
 }
+
 small {
   text-decoration: line-through;
   color: var(--darkgrayishblue);
